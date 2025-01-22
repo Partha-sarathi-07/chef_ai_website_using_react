@@ -10,7 +10,7 @@ header {
     justify-content: center;
     align-items: center;
     /* border-bottom: 1px solid black; */
-    box-shadow: 0 0 3px 0 rgb(34, 34, 34) ;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -25,4 +25,38 @@ header > span {
     font-size: 25px;
     font-weight: 500;
     color: rgb(36, 36, 36);
+}
+
+main {
+    padding: 0 20px;
+}
+
+.recipe_ingredient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+    gap: 12px;
+}
+    
+.recipe_ingredient > input {
+    border-radius: 6px;
+    padding: 9px 13px;
+    border: 1px solid #d1d5db;
+    box-shadow: 0px 1px 2px 0px rgb(0, 0, 0, 0.05);
+    flex-grow: 1;
+    min-width: 150px;
+    letter-spacing: 0.3px;
+    max-width: 350px;
+}
+
+.recipe_ingredient > button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 9px 13px;
+    border-radius: 6px;
+    cursor: pointer;
+    letter-spacing: 0.2px;
+    font-size: 13px;
 }
